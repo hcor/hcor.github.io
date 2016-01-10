@@ -10,8 +10,12 @@ body{
 	line-height: 1.7;
 }
 
+#top{
+	background-color: black;
+	height: 30px;
+}
+
 header{
-	padding-top: 40px;
 	text-align: center;
 }
 
@@ -25,21 +29,35 @@ h1{
 	margin-top: -20px;
 }
 
-ul{
-	padding-top: 40px;
-	padding-left: 200px;
-	list-style-type: none;
+#page-wrap{
+	width: 800px;
+	margin:auto;
+	padding: 20px;
+}
+
+#main-col{
+	width: 600px;
+	float: right;
+}
+
+#side-col{
+	width: 150px;
 	float: left;
+}
+
+#bottom{
+	background-color: black;
+	height: 30px;
+}
+ul{
+	font-family: 'Handlee', cursive;
+	list-style-type: none;
 	text-align: left;
 }
 
 img{
-	width: 70%;
-}
-
-main{
-	float: right;
-	padding-top: 40px;
+	width: 600px;
+	padding-bottom: 5px;
 }
 
 a{
