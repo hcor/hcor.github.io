@@ -1,0 +1,119 @@
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Handlee|Raleway:400,600);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+	/*background-color: #f8f8ff;*/
+	color: #444;
+	font-family: raleway, helvetica, sans serif;
+	font-size: 12 px;
+}
+
+#content{
+	width: 950px;
+	margin: auto;
+	/*background-color:blue;*/
+}
+
+#sidebar{
+	width: 300px;
+	margin: auto;
+	/*background-color: yellow;*/
+	float: left;
+}
+
+#sidebar img{
+	max-width: 260px;
+	margin: 20px;
+}
+
+nav a{
+	margin: 20px;
+	margin-left: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #444444;
+	display: block;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #993399;
+}
+
+main{
+	width: 600px; /*585px;*/
+	margin-left: 50px;
+	height: auto;
+	display: inline-block;
+	/*background-color: green;*/
+}
+
+header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 35px;
+}
+
+#slogan{
+	font-family: 'Handlee', cursive;
+	font-size: .8em;
+	margin-top: .8em;
+	margin-bottom: 1em;
+}
+
+img{
+	max-height: 250px;
+	max-width: 250px;
+	margin: 22px;
+	float: left;
+}
+
+#quoteblock{
+	height: 250px;
+	width: 250px;
+	margin: 22px;
+	padding: 40px;
+	padding-top: 60px;
+	font-size: 1.1em;
+	display: block;
+	float: left;
+	background-color: white;
+}
+
+#author{ 
+	text-align: right;
+	font-size: .8em;
+}
+
+#top{
+	background-color: black;
+	height: 30px;
+}
+
+#footer{
+	background-color: black;
+	height: 30px;
+}
+
+.clearfix:after {
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
