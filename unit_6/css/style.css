@@ -1,0 +1,114 @@
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Handlee|Raleway:400,600);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+	/*background-color: #f8f8ff;*/
+	color: #444;
+	font-family: raleway, helvetica, sans serif;
+	font-size: 12 px;
+}
+
+#two_column{
+	width: 950px;
+	margin: auto;
+	/*background-color:blue;*/
+}
+
+#left {
+	background-color: violet;
+    border: 1px black solid;
+	width: 32%; /*300px;*/
+	margin: auto;
+	/*background-color: #FFC675;*/
+	float: left;
+}
+
+#left img{
+	max-width: 260px;
+	margin: 20px;
+}
+
+nav a{
+	margin: 20px;
+	margin-left: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #444444;
+	display: block;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #993399;
+}
+
+#right {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 32px;
+    float: right;   
+    width: 65%;
+	/*width: 600px; /*585px;
+	margin-left: 50px;
+	padding: 1.5em;
+	height: auto;
+	display: inline-block;*/
+}
+
+#right img{
+	max-width: 550px;
+    padding: 0 0 20px;
+}
+
+header{
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: #FFED74
+}
+
+h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 35px;
+}
+
+#slogan{
+	font-family: 'Handlee', cursive;
+	font-size: .8em;
+	margin-top: .8em;
+	margin-bottom: 1em;
+}
+
+h3{
+	font-family: 'Satisfy', cursive;
+	font-size: 1.5em;
+	margin: 0 0 .5em;
+}
+
+#top{
+	background-color: black;
+	height: 30px;
+}
+
+#footer{
+	background-color: black;
+	height: 30px;
+}
+
+.clearfix:after {
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
